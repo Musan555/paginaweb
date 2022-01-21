@@ -1,0 +1,44 @@
+* {box-sizing: border-box;margin: 0;}
+body {background-color: white;font-family:arial;}
+header{background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	background-image: url(https://www.seguro-arquitectos.es/wp-content/uploads/12-datos-para-a%C3%B1adir-a-tus-conocimientos-sobre-la-arquitectura.jpg);}
+header h1 {color: yellow;
+	font-size: 70px;
+	text-shadow: 3px 3px 3px black;}
+header h2 {color: white;
+	text-shadow: 3px 3px 3px black;}		
+nav a {text-decoration: none;
+	color: white;
+	font-size: 25px;}
+nav {background-color: darkred;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	padding: 18px;}	
+nav a:hover{color: yellow;font-weight: bold;}	
+section#Servicios{padding: 30px;}
+#contenedor-servicios{display: flex;padding-top: 20px;}
+section{padding-top: 30px;}
+.titulo{color: brown;text-align: center;}
+section#Obras{padding: 30px;background-color: lightyellow;}	
+#obras-img {text-align: center;display:flex;padding-top: 20px;flex-wrap: wrap;}
+article.casa{width: 33%;text-align: center;}
+article.casa img{height: 80%; width: 80%;}
+footer{background-color: gray;
+	padding-top: 20px;
+	text-align: center;
+	color: white;}
+#pie{display: flex;
+	justify-content: space-around;
+	border-top: 2px solid white;}
+#contacto form {background-color: lightgrey;padding: 30px;border-radius: 20px;}
+#contacto{ padding-right: 70px;padding-left: 70px;padding-bottom: 50px; }
+#contacto input{font-size: 20px; width: 80%;padding: 10px;border-radius: 10px;margin-bottom: 15px;border: 1px solid darkgrey;}	
+#contacto label{display: block;width: 20%;font-weight: bold;color: brown;font-size: 1.2em;}
